@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="xxx’s academic homepage — about me, research, and miscellaneous interests.">
+  <title>Research | Wenxuan Zhu's home page</title>
+  <link rel="stylesheet" href="assets/jon-barron.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="banner banner-research">
+    <nav class="site-nav" aria-label="Main navigation">
+      <!-- Change the site name here, and in the other two HTML files. -->
+      <a class="site-name" href="index.html">Wenxuan Zhu's home page</a>
+      <div class="nav-links"><a href="index.html">About Me</a><a href="research.html" aria-current="page">Research</a><a href="miscellaneous.html">Miscellaneous</a></div>
+    </nav>
+  </header>
+  <main id="content">
+    <h1>Research</h1>
+    <div class="research-content">
+      <section class="research-interests text-content" aria-label="Research interests">
+      <p>Currently, my research focus is mainly on contact-rich dexterous manipulation, from low-level control and planning to the connection with multimodal models and agentic methods. </p>
+      <p>I am also interested in combinatorial algorithms and data structures, and hope to explore how algorithmic ideas can contribute to more efficient and principled approaches in robotics (and other fields).</p>
+      </section>
+      <h2 class="publications-heading">Publications</h2>
+      <p class="research-intro">*: equal contribution; †: corresponding author(s). Some papers are <span class="highlight">highlighted</span>.</p>
+      <!-- Paper-row layout adapted from Jon Barron. Edit papers.yml to add papers. -->
+      <p id="papers-status" class="research-intro" role="status">Loading publications…</p>
+      <noscript><p class="research-intro">Enable JavaScript to view publications, or <a href="papers.yml">read the paper list</a>.</p></noscript>
+      <table class="paper-list" aria-label="Research publications"><tbody id="papers"></tbody></table>
+    </div>
+  </main>
+  <footer class="site-footer">
+    Template adapted from <a href="https://sites.google.com/uchicago.edu/yudeng/about-me">Yu Deng</a> and <a href="https://jonbarron.info/">Jon Barron</a>.
+  </footer>
+  <script type="module" src="assets/papers.js"></script>
+</body>
+</html>

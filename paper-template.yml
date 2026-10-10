@@ -1,0 +1,15 @@
+# Copy the entry below into papers.yml under `papers:`.
+# The leading two spaces before the dash are intentional.
+  - id: my-new-paper
+    title: 'Your Paper Title'
+    authors: [Your Name, Coauthor One, Coauthor Two]
+    venue: Conference or journal
+    year: 2026
+    image: assets/paper-placeholder.svg
+    image_alt: A short description of your paper figure
+    highlighted: false
+    links:
+      paper: https://example.com/paper
+      code: https://example.com/code
+    description: >-
+      One or two sentences describing your contribution.

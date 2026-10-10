@@ -1,0 +1,62 @@
+# Add a paper by copying an entry under `papers:`. Keep the indentation.
+# Entries appear in file order (put newest first).
+# This name is bolded automatically in the author lists.
+own_name: Wenxuan Zhu
+
+papers:
+  - id: lda-1b
+    title: 'LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion'
+    authors:
+      - Jiangran Lyu*
+      - Kai Liu*
+      - Xuheng Zhang*
+      - Haoran Liao
+      - Yusen Feng
+      - Wenxuan Zhu
+      - Tingrui Shen
+      - Jiayi Chen
+      - Jiazhao Zhang
+      - Yifei Dong
+      - Wenbo Cui
+      - Senmao Qi
+      - Shuo Wang
+      - Yixin Zheng
+      - Mi Yan
+      - Xuesong Shi
+      - Haoran Li
+      - Dongbin Zhao
+      - Ming-Yu Liu
+      - Zhizheng Zhang
+      - Li Yi
+      - Yizhou Wang
+      - He Wang
+    # Optional: link authors to their homepages.
+    author_links:
+      Jiangran Lyu: https://jiangranlv.github.io/
+      Xuheng Zhang: https://catburgg.github.io
+      Yusen Feng: https://wangchek.github.io/
+      Wenxuan Zhu: https://lgswdn.github.io
+      Jiayi Chen: https://jychen18.github.io/
+      Jiazhao Zhang: https://jzhzhang.github.io/
+      Wenbo Cui: https://cwb0106.github.io/
+      Mi Yan: https://miyandoris.github.io/
+      Xuesong Shi: https://scholar.google.com/citations?user=wRBbtl8AAAAJ&hl=en
+      Haoran Li: https://ia.cas.cn/rcdw/fyjy/202404/t20240422_7129926.html
+      Dongbin Zhao: https://people.ucas.ac.cn/~zhaodongbin?language=en
+      Ming-Yu Liu: https://mingyuliu.net/
+      Zhizheng Zhang: https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en
+      Li Yi: https://ericyi.github.io/
+      Yizhou Wang: https://cfcs.pku.edu.cn/english/people/faculty/yizhouwang/index.htm
+      He Wang: https://hughw19.github.io/
+    venue: 'Robotics: Science and Systems (RSS)'
+    year: 2026
+    image: assets/lda-teaser.png
+    image_alt: Overview of LDA-1B and its training on heterogeneous embodied data
+    highlighted: false
+    links:
+      arXiv: https://arxiv.org/abs/2602.12215
+      project page: https://pku-epic.github.io/LDA/
+      code: https://github.com/jiangranlv/LDA-1B
+    description: >-
+      A robot foundation model that learns dynamics, actions, and visual forecasting
+      from heterogeneous human and robot data using a structured latent representation.
