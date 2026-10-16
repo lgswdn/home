@@ -31,7 +31,6 @@ papers:
     image_alt: Uni-PNP compared with grasping-only and sequential primitive approaches
     highlighted: false
     links:
-      arXiv: https://arxiv.org/abs/2610.21735
       paper: https://arxiv.org/pdf/2610.21735
       project page: https://lgswdn.github.io/Uni-PNP/
     description: >-
@@ -89,9 +88,8 @@ papers:
     image_alt: Overview of LDA-1B and its training on heterogeneous embodied data
     highlighted: false
     links:
-      arXiv: https://arxiv.org/abs/2602.12215
+      paper: https://arxiv.org/pdf/2602.12215
       project page: https://pku-epic.github.io/LDA/
-      code: https://github.com/jiangranlv/LDA-1B
     description: >-
       A robot foundation model that learns dynamics, actions, and visual forecasting
       from heterogeneous human and robot data using a structured latent representation.
