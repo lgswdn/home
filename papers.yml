@@ -4,6 +4,41 @@
 own_name: Wenxuan Zhu
 
 papers:
+  - id: uni-pnp
+    title: 'Uni-PNP: Unified Prehensile and Non-prehensile Policy Learning for Generalizable Object Pose Reaching'
+    authors:
+      - Wenxuan Zhu*
+      - Yuze Wang*
+      - Jiangran Lyu*
+      - Jiayi Chen*
+      - Yixin Zheng
+      - Mi Yan
+      - Li Yi
+      - Zhizheng Zhang
+      - He Wang†
+    author_links:
+      Wenxuan Zhu: https://lgswdn.github.io/
+      Jiangran Lyu: https://jiangranlv.github.io/
+      Jiayi Chen: https://jychen18.github.io/
+      Yixin Zheng: https://steveouo.github.io/
+      Mi Yan: https://miyandoris.github.io/
+      Li Yi: https://ericyi.github.io/
+      Zhizheng Zhang: https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en
+      He Wang†: https://hughw19.github.io/
+    venue: arXiv
+    year: 2026
+    image: https://lgswdn.github.io/Uni-PNP/assets/teaser.png
+    image_alt: Uni-PNP compared with grasping-only and sequential primitive approaches
+    highlighted: false
+    links:
+      arXiv: https://arxiv.org/abs/2610.21735
+      paper: https://arxiv.org/pdf/2610.21735
+      project page: https://lgswdn.github.io/Uni-PNP/
+    description: >-
+      A unified policy that jointly learns prehensile and non-prehensile manipulation
+      for generalizable object pose reaching, using contact-dynamics pretraining
+      and a two-stage reinforcement learning curriculum.
+
   - id: lda-1b
     title: 'LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion'
     authors:
